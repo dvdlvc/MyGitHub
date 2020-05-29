@@ -16,14 +16,11 @@ mu <- 1
 tail <- 3
 
 # Approximations for a fix n
-
 n <- 10 # top left plot in Fig 2. Use n = 50, 100, 250 to obtain the other plots. 
-
-
-x <- seq(max(df-tail*sqrt(2*df/n),0), df+tail*sqrt(2*df/n), length=1000) 
+x <- seq(max(df-tail*sqrt(2*df/n),0), df+tail*sqrt(2*df/n), length=1000) # grid of points
 ea <- edgeworth(x, n, rho3, rho4, mu, sigma2, type="mean") # Edg expansion of the mean
-sp <- saddlepoint(x, n, gammaCumulants(shape, scale))      # Sad density of the mean
-true_dens <- n*dgamma(n*x, shape=n*shape, scale=scale)     # True density of the mean      
+sp <- saddlepoint(x, n, gammaCumulants(shape, scale))      # sad density of the mean
+true_dens <- n*dgamma(n*x, shape=n*shape, scale=scale)     # true density of the mean      
 
 
 # compute relative error
