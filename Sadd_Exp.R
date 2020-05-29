@@ -1,7 +1,6 @@
 # Author: Davide La Vecchia. Last update: 29-May-2020.
 # This code generates Figure 2 in the paper
-# "A bridge between information theory, saddlepoint approximations,
-# and measure transportation" 
+# "A bridge between information theory, saddlepoint approximations and measure transportation" 
 # by Ilievski, La Vecchia and Ronchetti (2019).
 
 
