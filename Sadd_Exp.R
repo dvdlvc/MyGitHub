@@ -30,7 +30,7 @@ true_dens <- n*dgamma(n*x, shape=n*shape, scale=scale)     # True density of the
 rel_err_sp <- 100*((true_dens-sp$approx)/true_dens)
 rel_err_ea <- 100*((true_dens-ea$approx)/true_dens)
 
-
+# plot the % relative error for the two approximations
 plot(x,rel_err_ea,type='l',lty=4,lwd=3,col=1,ylim=c(-10,20),
      ylab="% Relative error", xlab="Xbar", cex=1.2, cex.axis=1.2)
 lines(x,(rel_err_sp),type='l',lty=1,lwd=3,col=4)
