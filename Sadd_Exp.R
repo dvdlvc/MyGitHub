@@ -1,4 +1,4 @@
-## Figure 2
+# Author: Davide La Vecchia. Last update: 29-May-2020.
 # This code generates Figure 2 in the paper
 # "A bridge between information theory, saddlepoint approximations,
 # and measure transportation" 
@@ -18,7 +18,7 @@ tail<-3
 
 # Approximations for a fix n
 
-n <- 10 # change for n = 50, 100, 250
+n <- 10 # top left plot in Fig 2. Use n = 50, 100, 250 to obtain the other plots. 
 
 
 x <- seq(max(df-tail*sqrt(2*df/n),0), df+tail*sqrt(2*df/n), length=1000) 
