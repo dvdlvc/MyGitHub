@@ -2,7 +2,7 @@
 # This code generates Figure 2 in the paper
 # "A bridge between information theory, saddlepoint approximations,
 # and measure transportation" 
-# by Ilievsky, La Vecchia and Ronchetti (2019).
+# by Ilievski, La Vecchia and Ronchetti (2019).
 
 
 
@@ -38,8 +38,6 @@ lines(x,ea$approx,col=2)
 rel_err_sp = 100*((true_dens-sp$approx)/true_dens)
 rel_err_ea =100*((true_dens-ea$approx)/true_dens)
 
-#log_rel_err_sp =  log(abs(rel_err_sp))
-#log_rel_err_ea =  log(abs(rel_err_ea))
 
 setEPS()
 postscript("Cfr_n10.eps")
@@ -78,7 +76,6 @@ postscript("Cfr_n50.eps")
 plot(x,rel_err_ea,type='l',lty=4,lwd=3,col=1,ylim=c(-10,20),
      ylab="% Relative error", xlab="Xbar", cex=1.2, cex.axis=1.2)
 lines(x,rel_err_sp,type='l',lty=1,lwd=3,col=4)
-#legend(x=0.5,y=-80,c('ea','sad'), col=c(1,4), lty=c(4,1),cex=1.4, bty = "n")
 dev.off()
 
 
