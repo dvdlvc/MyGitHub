@@ -13,7 +13,7 @@ sigma2 <- 1
 rho3 <- 2
 rho4 <- 6
 mu <- 1
-tail<-3
+tail <- 3
 
 # Approximations for a fix n
 
