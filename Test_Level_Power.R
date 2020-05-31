@@ -1,5 +1,5 @@
 ## Author Davide La Vecchia (31-May-2020)
-## The code below generates Figure 4
+## The code below generates Figure 4.
 
 set.seed(2020)
 MCsize <- 5000
@@ -57,5 +57,5 @@ plot(tau,t10, ylim=c(0.05,1), type="l", lty=1,col=4,lwd=2, ylab="", xlab="delta"
 
 
 # Increase the sample size and superplot the power curves
-# to get the plot for the power
+# to get the plot for the power, as available in Figure 4.
 
