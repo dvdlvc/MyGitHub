@@ -26,7 +26,7 @@ true_dens <- n*dgamma(n*x, shape=n*shape, scale=scale)     # true density of the
 
 
 
-# Fig 2
+# Code for Fig 2
 plot(x,true_dens,col=1,type='l',lty=2, lwd=2, xlab="z", ylab="Density")
 lines(x,ea$approx,col=1,lty=1,lwd=2)
 lines(x,asy,col=2,lty=4,lwd=2)
