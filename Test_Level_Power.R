@@ -1,3 +1,4 @@
+## Author Davide La Vecchia (31-May-2020)
 ## The code below generates Figure 4
 
 set.seed(2020)
