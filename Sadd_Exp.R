@@ -14,6 +14,7 @@ sigma2 <- 1
 rho3 <- 2
 rho4 <- 6
 mu <- 1
+tail <- 3 # define a cut off for the tail---needed just for plotting purposes
 
 
 # Approximations 
@@ -24,10 +25,6 @@ true_dens <- n*dgamma(n*x, shape=n*shape, scale=scale)     # true density of the
 
 
 
-x <- seq(max(df-tail*sqrt(2*df/n),0), df+tail*sqrt(2*df/n), length=1000) 
-ea <- edgeworth(x, n, rho3, rho4, mu, sigma2, type="mean") 
-asy <- dnorm(x,mean=1,sd=1/sqrt(n))
-true_dens <- n*dgamma(n*x, shape=n*shape, scale=scale)
 
 # Fig 2
 plot(x,true_dens,col=1,type='l',lty=2, lwd=2, xlab="z", ylab="Density")
