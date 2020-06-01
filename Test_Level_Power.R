@@ -1,7 +1,9 @@
 ## Author Davide La Vecchia (31-May-2020)
 # The code below generates the power curve of the saddlepoin test 
 # based on the Legendre transform of the mean
-# for n = 10. The curve is available in Figure 4 of the paper.
+# for n = 10. The curve is available in Figure 4 of the paper
+# "A bridge between information theory, saddlepoint approximations and measure transportation" 
+# by Ilievski, La Vecchia and Ronchetti (2019).
 
 set.seed(2020)
 MCsize <- 5000 # change this if you want more MC runs
