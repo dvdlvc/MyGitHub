@@ -11,5 +11,6 @@ of n=10 iid random variables exponentially distributed. We consider the simple h
 the power curve in Figure 4 available in the paper. The codeThe other power curves are obtained changing n and superposing the 
 resulting plots.
 
-Both R files have been writteb by Davide La Vecchia, on May 2020 (last update).  The Monte Carlo size is MCsize = 5000. This 
-value can be increased by the user, but we in our experience 5000 Monte Carlo runs yield already very accurate results. 
+For both files, the Monte Carlo size is MCsize = 5000. This value can be increased by the user, but we in our experience 5000 Monte Carlo runs yield already very accurate results. 
+
+Author: Davide La Vecchia. Creation data: on May 2020. Last update: June 2020. 
