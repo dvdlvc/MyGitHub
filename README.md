@@ -4,6 +4,8 @@ and measure transportation"*, 2019, Andrej Ilievski, Davide La Vecchia, Elvezio 
 
 The repository contains two files:
 
+[TeachingMaterial](https://github.com/lgatto/TeachingMaterial)
+
 1- File [Sadd_Exp.R] (https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Sadd_Exp.R)generates the Figure 2 and 
 Figure 3 available in the paper. The file contains R code for the saddlepoint density approximation (Sad) and the Edgeworth 
 expansion (Edg) of the mean of n iid random variables, exponentially distributed, with rate one.
