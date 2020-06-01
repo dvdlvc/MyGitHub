@@ -1,10 +1,10 @@
 # Overview
-===========
+
 R Code for the working paper *"A bridge between information theory, saddlepoint approximations,
 and measure transportation"*, 2019, Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti.
 
 ## Content
-===========
+
 The repository contains two files:
 
 [TeachingMaterial](https://github.com/lgatto/TeachingMaterial)
@@ -24,7 +24,6 @@ For both files, the Monte Carlo size is MCsize = 5000. This value can be increas
 Carlo runs yield already very accurate results, for the saddlepoint density and the test. 
 
 # Additional info:
-===========
 - Author: Davide La Vecchia.
 - Creation data: May 2020. 
 - Last update: June 2020. 
