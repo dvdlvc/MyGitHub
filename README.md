@@ -7,6 +7,8 @@ mean of n iid random variables, exponentially distributed. In both files, the Mo
 
 The code Sadd_Exp.R https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Sadd_Exp.R  generates the Figure 2 and Figure 3 available in the paper.
 
-The code Test_Level_Power.R https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Test_Level_Power.R generates the Figure 4 available in the paper, for n=10. The other power curves are obtained changing n and superposing the resulting plots.
+The code Test_Level_Power.R https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Test_Level_Power.R 
+generates the Figure 4 available in the paper, for n=10. The other power curves are obtained changing n and superposing the 
+resulting plots.
 
 Both R files have been writteb by Davide La Vecchia.
