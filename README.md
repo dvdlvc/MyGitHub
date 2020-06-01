@@ -14,4 +14,7 @@ the paper. The other power curves are obtained changing n and superposing the re
 
 For both files, the Monte Carlo size is MCsize = 5000. This value can be increased by the user, but we in our experience 5000 Monte Carlo runs yield already very accurate results. 
 
-Author: Davide La Vecchia. Creation data: May 2020. Last update: June 2020. 
+Author: Davide La Vecchia. 
+Creation data: May 2020. 
+Last update: June 2020. 
+R version: 3.6.1 (>=).
