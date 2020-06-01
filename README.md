@@ -23,7 +23,7 @@ the paper. The other power curves are obtained changing n and superposing the re
 For both files, the Monte Carlo size is MCsize = 5000. This value can be increased by the user. In our experience 5000 Monte 
 Carlo runs yield already very accurate results, for the saddlepoint density and the test. 
 
-# Additional info:
+## Additional info:
 - Author: Davide La Vecchia.
 - Creation data: May 2020. 
 - Last update: June 2020. 
