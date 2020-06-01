@@ -1,4 +1,4 @@
-Code for the working paper "A bridge between information theory, saddlepoint approximations,
+R Code for the working paper "A bridge between information theory, saddlepoint approximations,
 and measure transportation", 2019, Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti.
 
 The folder contains the R code for the saddlepoint density approximation (Sad) and the Edgeworth expansion (Edg) of the 
