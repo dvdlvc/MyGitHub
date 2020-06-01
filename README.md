@@ -8,8 +8,8 @@ and measure transportation"*, 2019, Andrej Ilievski, Davide La Vecchia, Elvezio 
 The repository contains two files:
 
 1- Sadd_Exp.R (https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Sadd_Exp.R) generates the Figure 2 
-and Figure 3 available in the paper. The file contains the R code for the saddlepoint density approximation (Sad) and the 
-Edgeworth expansion (Edg) of the mean of n iid random variables, exponentially distributed, with rate one.
+and Figure 3 available in the paper. The file contains the R code for the saddlepoint density approximation and the 
+Edgeworth expansion for the mean of n iid random variables, exponentially distributed, with rate one---exp(1).
 
 2- Test_Level_Power.R (https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Test_Level_Power.R) 
 implements the saddlepoint test of Robinson, Ronchetti and Young (Annals of Statistics, Volume 31, Number 4 (2003), 1154-1169, 
