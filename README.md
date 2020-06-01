@@ -3,7 +3,9 @@ and measure transportation", 2019, Andrej Ilievski, Davide La Vecchia, Elvezio R
 
 The repository contains two files:
 
-1- Sadd_Exp.R https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Sadd_Exp.R  generates the Figure 2 and Figure 3 available in the paper. The file contains R code for the saddlepoint density approximation (Sad) and the Edgeworth expansion (Edg) of the mean of n iid random variables, exponentially distributed, with rate one.
+1- Sadd_Exp.R https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Sadd_Exp.R  generates the Figure 2 and 
+Figure 3 available in the paper. The file contains R code for the saddlepoint density approximation (Sad) and the Edgeworth 
+expansion (Edg) of the mean of n iid random variables, exponentially distributed, with rate one.
 
 2- Test_Level_Power.R https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Test_Level_Power.R 
 implements the saddlepoint test of Robinson, Ronchetti and Young (Annals of Statistics, Volume 31, Number 4 (2003), 1154-1169, 
@@ -14,7 +16,10 @@ the paper. The other power curves are obtained changing n and superposing the re
 
 For both files, the Monte Carlo size is MCsize = 5000. This value can be increased by the user, but we in our experience 5000 Monte Carlo runs yield already very accurate results. 
 
-Author: Davide La Vecchia. 
+Author: Davide La Vecchia.
+
 Creation data: May 2020. 
+
 Last update: June 2020. 
+
 R version: 3.6.1 (>=).
