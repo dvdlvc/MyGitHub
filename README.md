@@ -14,7 +14,8 @@ of n = 10 iid random variables exponentially distributed. We consider the simple
 1164 of Robinson et al (2003) paper . The code generates the QQplot and one of the power curve in Figure 4, as available in 
 the paper. The other power curves are obtained changing n and superposing the resulting plots.
 
-For both files, the Monte Carlo size is MCsize = 5000. This value can be increased by the user, but we in our experience 5000 Monte Carlo runs yield already very accurate results. 
+For both files, the Monte Carlo size is MCsize = 5000. This value can be increased by the user. In our experience 5000 Monte 
+Carlo runs yield already very accurate results, both for the saddlepoint density and the test. 
 
 Additional info:
 
