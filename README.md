@@ -1,11 +1,13 @@
 # Overview
 
-R Code for the working paper ["A bridge between information theory, saddlepoint approximations,
-and measure transportation"](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/June_2020_MongeKantorovich_Saddlepoint.pdf), 2019, Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti.
+This repository contains the working paper ["A bridge between information theory, saddlepoint approximations,
+and measure transportation"](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/June_2020_MongeKantorovich_Saddlepoint.pdf), 2019, 
+Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti. The repository  contains two R files which reproduce Figure 2, 3 and 4 
+in the manuscript.
 
 ## Content
 
-The repository contains two files:
+Two R files:
 
 1- Sadd_Exp.R (https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Sadd_Exp.R) generates the Figure 2 
 and Figure 3 available in the paper. The file contains the R code for the saddlepoint density approximation and the 
