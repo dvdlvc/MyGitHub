@@ -1,7 +1,7 @@
 # Overview
 
 R Code for the working paper ["A bridge between information theory, saddlepoint approximations,
-and measure transportation](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/June_2020_MongeKantorovich_Saddlepoint.pdf), 2019, Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti.
+and measure transportation"](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/June_2020_MongeKantorovich_Saddlepoint.pdf), 2019, Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti.
 
 ## Content
 
