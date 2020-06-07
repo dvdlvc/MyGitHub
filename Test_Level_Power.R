@@ -39,11 +39,11 @@ text(7.5,14,"0.975 quantile")
 
 # Power (study the rejection frequency under a seq of alternative hypotheses)
 
-test_clean<-rep(0,MCsize)
-t10<-NULL
-rej<-rep(0,MCsize)
-tau<-seq(0,tau.max,by=0.05) #defines the grid of alternative hypotheses
-cv<-qchisq(0.95,df=1)
+test_clean <- rep(0,MCsize)
+t10 <- NULL
+rej <- rep(0,MCsize)
+tau <- seq(0,tau.max,by=0.05) #defines the grid of alternative hypotheses
+cv <- qchisq(0.95,df=1)
 
 for (j in 1:length(tau))
   {
