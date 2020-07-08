@@ -14,11 +14,11 @@ nsize <- 10 # change this to increase the sample size
 test_clean <- rep(0,MCsize)
 
 for (i in 1:MCsize)
-{
+ {
   sample_my_clean <- rexp(nsize,rate=1) 
   test_clean[i] <- 2*nsize*(mean(sample_my_clean)-1-log(mean(sample_my_clean)))
   print(i)
-}
+ }
 
 thquant=rchisq(MCsize,df=1)
 
