@@ -25,6 +25,6 @@ Carlo runs yield already very accurate results, for the saddlepoint density and 
 
 ## Additional info
 - Author of the R codes: Davide La Vecchia.
-- Creation data: May 2020. 
+- Creation date: May 2020. 
 - Last update: June 2020. 
 - R version: 3.6.1 (>=).
