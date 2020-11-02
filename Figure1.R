@@ -5,8 +5,7 @@ t = 2.5     # mean of the transformed random variable, namely E[Y] = t
 
 set.seed(123)
 x = rexp(n.size,rate=1)
-hist(x, breaks = my.b, xlim=c(0,15),col="blue", 
-     ylim=c(0,20),xlab="X", main="")
+hist(x, breaks = my.b, xlim=c(0,15),col="blue", ylim=c(0,20),xlab="X", main="")
 
 #mean(x)  # check on the mean 
 #sd(x)    # check on the std 
