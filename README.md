@@ -10,7 +10,7 @@ in the manuscript.
 Three R files:
 
 1-[Figure1.R](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Figure1.R) generates Figure 1 
-available in the paper. The optimal transport mapping is in closed form and $Y=tX$.
+available in the paper. The optimal transport mapping is in closed form and Y=tX. The conjugate density is an exp(1/t).
 
 2- [Sadd_Exp.R](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Sadd_Exp.R) generates the Figure 2 
 and Figure 3 available in the paper. The file contains the R code for the saddlepoint density approximation and the 
