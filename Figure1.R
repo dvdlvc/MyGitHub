@@ -1,3 +1,5 @@
+# Date 2-Nov-2020
+# Author: Davide La Vecchia
 
 n.size = 40 # sample size
 my.b = 10   # number of breaks in the histograms
@@ -18,7 +20,7 @@ hist(y,breaks= my.b, xlim=c(0,15),col="red", ylim=c(0,20), xlab="Y", main="")
 #sd(y)    # check on the std 
 
 
-#Check via simulation of exp with rate 1/t and mean t
+# Check via simulation of exp with rate 1/t and mean t (not displayed in the paper)
 set.seed(123)
 y.c = rexp(n.size,rate=1/t)
 hist(y.c, breaks= my.b,xlim=c(0,15),col="grey", ylim=c(0,20),
