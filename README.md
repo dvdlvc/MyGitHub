@@ -23,9 +23,9 @@ of n = 10 iid random variables exponentially distributed. We consider the simple
 1164 of Robinson et al (2003) paper . The code generates the QQplot and one of the power curve in Figure 4, as available in 
 the paper. The other power curves are obtained changing n and superposing the resulting plots. The Monte Carlo size is MCsize = 5000. This value can be increased by the user. In our experience 5000 Monte Carlo runs yield already very accurate results, for the saddlepoint density and the test. 
 
-4- The file .m is inspired by Peyre and Cuturi (2019) and it generates Figure 2 (optimal transportation of Gaussians mixture)
+4- The file [Figure2.m](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Figure2.m) is inspired by Peyre and Cuturi (2019) and it generates Figure 2 (optimal transportation of Gaussians mixture)
 
-5- The file [KLvsW.m](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/KLvsW.m) compares the hyperbolic geometry related to the KL divergence to the Euclidean geometry realated to 2-Wasserstein distance on the manifold of Gaussians.
+5- The file [KLvsW.m](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/KLvsW.m) compares the hyperbolic geometry related to the KL divergence to the Euclidean geometry realated to 2-Wasserstein distance on the manifold of Gaussians. Also this file is inspired by Peyre and Cuturi (2019).
 
 ## Additional info
 - Author of the R codes: Davide La Vecchia.
