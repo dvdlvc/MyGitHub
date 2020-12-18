@@ -25,6 +25,8 @@ the paper. The other power curves are obtained changing n and superposing the re
 
 4- The file .m is inspired by Peyre and Cuturi (2019) and it generates Figure 2 (optimal transportation of Gaussians mixture)
 
+5- The file [KLvsW.m](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/KLvsW.m) compares the hyperbolic geometry related to the KL divergence to the Euclidean geometry realated to 2-Wasserstein distance on the manifold of Gaussians.
+
 ## Additional info
 - Author of the R codes: Davide La Vecchia.
 - Creation date: May 2020. 
