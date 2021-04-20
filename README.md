@@ -20,7 +20,7 @@ Edgeworth expansion for the mean of n iid random variables, exponentially distri
 implements the saddlepoint test of Robinson, Ronchetti and Young (Annals of Statistics, Volume 31, Number 4 (2003), 1154-1169, 
 https://projecteuclid.org/euclid.aos/1059655909) based on the Legendre transform for the mean 
 of n = 10 iid random variables exponentially distributed. We consider the simple hypthesis testing problem as in Example 1 p. 
-1164 of Robinson et al (2003) paper . The code generates the QQplot and one of the power curve in Figure 4, as available in 
+1164 of Robinson et al (2003) paper . The code generates the QQplot and one of the power curves in Figure 4, as available in 
 the paper. The other power curves are obtained changing n and superposing the resulting plots. The Monte Carlo size is MCsize = 5000. This value can be increased by the user. In our experience 5000 Monte Carlo runs yield already very accurate results, for the saddlepoint density and the test. 
 
 4- The file [Figure2.m](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Figure2.m) is inspired by Peyre and Cuturi (2019) and it generates Figure 2 (optimal transportation of Gaussians mixture)
