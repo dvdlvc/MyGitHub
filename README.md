@@ -1,7 +1,6 @@
 # Overview
 
-This repository contains the working paper ["A bridge between information theory, saddlepoint approximations,
-and measure transportation"](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/June_2020_MongeKantorovich_Saddlepoint.pdf), 2019, 
+This repository contains the working paper ["On some connections between Esscher’s tilting, saddlepoint approximations, and optimal transportation: a statistical perspective"](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/June_2020_MongeKantorovich_Saddlepoint.pdf), 2019, 
 Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti. The repository  contains two R files which reproduce Figure 2, 3 and 4 
 in the manuscript.
 
