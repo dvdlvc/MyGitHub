@@ -1,8 +1,7 @@
 # Overview
 
-This repository contains the working paper ["On some connections between Esscher’s tilting, saddlepoint approximations, and optimal transportation: a statistical perspective"](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/June_2020_MongeKantorovich_Saddlepoint.pdf), 2019, 
-Andrej Ilievski, Davide La Vecchia, Elvezio Ronchetti. The repository  contains two R files which reproduce Figure 2, 3 and 4 
-in the manuscript.
+This repository contains the working paper ["On some connections between Esscher’s tilting, saddlepoint approximations, and optimal transportation: a statistical perspective"](https://github.com/dvdlvc/MyGitHub/blob/Saddlepoint_MeasureTransportation/Rev_STS_LaVecchia_Ronchetti_Ilievski.pdf), 2021, 
+Davide La Vecchia, Elvezio Ronchetti, and Andrej Ilievski, . The repository  contains two R files which reproduce the figures of the manuscript.
 
 ## Content
 
